@@ -3,7 +3,7 @@ Retrieve all the words that are possible with the data you already have in wordl
 
 ![Wordle](https://i.imgur.com/lEQ1xAs.png)
 
-After inputting all the data, it will output everything to the console in an array
+After inputting all the data, it will output all possible words to the console in an array
 
 If you have a letter that has to be excluded then you need to add it like this:
 ```python
