@@ -2,13 +2,19 @@
 Retrieve all the words that are possible with the data you already have in wordle\
 
 If you have a letter that has to be excluded then you need to add it like this:\
-`addLetter("the letter", 0)`\
+```python
+addLetter("the letter", 0)
+```
 \
 If you have a letter that is in the right spot is should be like this:\
-`addLetter("the letter", the position, False, True)`\
+```python
+addLetter("the letter", the position, False, True)
+```
 \
 If you have a letter that is in the final word but not in the right spot it should be like this:\
-`addLetter("the letter", the position, False, False)`\
+```python
+addLetter("the letter", the position, False, False)
+```
 \
 the first parameter is the letter you want to add,\
 the second parameter is the position the letter is at,\
