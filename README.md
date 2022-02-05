@@ -35,5 +35,5 @@ This is means:\
 "g" isn't in the final word,\
 "r" is in the right spot,\
 "i" is in the right spot,\
-"p" is not in the final word,\
-"s" is not in the right spot but is somewhere in the final word
+"p" isn't in the final word,\
+"s" isn't in the right spot, but is somewhere in the final word
