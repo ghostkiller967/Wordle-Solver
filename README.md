@@ -1,5 +1,5 @@
 # Wordle-Solver
-Retrieve all the words that are possible with the data you already have in wordle\
+Retrieve all the words that are possible with the data you already have in wordle
 
 If you have a letter that has to be excluded then you need to add it like this:
 ```python
