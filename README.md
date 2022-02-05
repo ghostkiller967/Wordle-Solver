@@ -2,13 +2,13 @@
 Retrieve all the words that are possible with the data you already have in wordle\
 
 If you have a letter that has to be excluded then you need to add it like this:\
-addLetter("the letter", 0)\
+`addLetter("the letter", 0)`\
 \
 If you have a letter that is in the right spot is should be like this:\
-addLetter("the letter", the position, False, True)\
+`addLetter("the letter", the position, False, True)`\
 \
 If you have a letter that is in the final word but not in the right spot it should be like this:\
-addLetter("the letter", the position, False, False)\
+`addLetter("the letter", the position, False, False)`\
 \
 the first parameter is the letter you want to add,\
 the second parameter is the position the letter is at,\
@@ -17,11 +17,11 @@ the fourth paramter is if the letter is in the correct place\
 
 # Example
 
-addLetter("g", 0)\
-addLetter("r", 1, False, True)\
-addLetter("i", 2, False, True)\
-addLetter("p", 3)\
-addLetter("s", 4, False, False)\
+`addLetter("g", 0)
+addLetter("r", 1, False, True)
+addLetter("i", 2, False, True)
+addLetter("p", 3)
+addLetter("s", 4, False, False)`\
 
 This is means:\
 "g" isn't in the final word,
