@@ -1,17 +1,17 @@
 # Wordle-Solver
 Retrieve all the words that are possible with the data you already have in wordle\
 
-If you have a letter that has to be excluded then you need to add it like this:\
+If you have a letter that has to be excluded then you need to add it like this:
 ```python
 addLetter("the letter", 0)
 ```
 \
-If you have a letter that is in the right spot is should be like this:\
+If you have a letter that is in the right spot is should be like this:
 ```python
 addLetter("the letter", the position, False, True)
 ```
 \
-If you have a letter that is in the final word but not in the right spot it should be like this:\
+If you have a letter that is in the final word but not in the right spot it should be like this:
 ```python
 addLetter("the letter", the position, False, False)
 ```
