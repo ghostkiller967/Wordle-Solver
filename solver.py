@@ -6,17 +6,16 @@ input = [ ]
 def addLetter(letter: str, position: int, exclude: bool = True, correct: bool = False):
     input.append({ "exclude": exclude, "letter": letter, "correct": correct, "position":  position })
 
-addLetter("d", 0)
-addLetter("e", 1)
-addLetter("a", 2)
-addLetter("t", 3, False, True)
-addLetter("h", 4)
+# ---------------
+# add words here
 
-addLetter("g", 0)
-addLetter("r", 1)
-addLetter("i", 2, False, True)
-addLetter("p", 3)
-addLetter("s", 4)
+addLetter("w", 0)
+addLetter("h", 1)
+addLetter("e", 2)
+addLetter("l", 3, False, True)
+addLetter("p", 4)
+
+# ---------------
 
 with open("words.txt", "r") as f:
     text = f.read()
