@@ -32,7 +32,7 @@ addLetter("s", 4, False, False)
 ```
 
 This is means:\
-"g" isn't in the final word,
+"g" isn't in the final word,\
 "r" is in the right spot,\
 "i" is in the right spot,\
 "p" is not in the final word,\
