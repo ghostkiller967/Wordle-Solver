@@ -19,7 +19,7 @@ addLetter("the letter", the position, False, False)
 the first parameter is the letter you want to add,\
 the second parameter is the position the letter is at,\
 the third parameter is if the letter should be excluded, this means that the letter is not in the final word,\
-the fourth paramter is if the letter is in the correct place\
+the fourth paramter is if the letter is in the correct place.
 
 # Example
 
@@ -36,4 +36,4 @@ This is means:\
 "r" is in the right spot,\
 "i" is in the right spot,\
 "p" isn't in the final word,\
-"s" isn't in the right spot, but is somewhere in the final word
+"s" isn't in the right spot, but is somewhere in the final word.
