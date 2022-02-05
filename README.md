@@ -11,15 +11,15 @@ the fourth paramter is if the letter is in the correct place
 
 # Example
 
-addLetter("g", 0)
-addLetter("r", 1, False, True)
-addLetter("i", 2, False, True)
-addLetter("p", 3)
-addLetter("s", 4, False, False)
+addLetter("g", 0)\
+addLetter("r", 1, False, True)\
+addLetter("i", 2, False, True)\
+addLetter("p", 3)\
+addLetter("s", 4, False, False)\
 
 This is means:
-"g" isn't in the final word, 
-"r" is in the right spot, 
-"i" is in the right spot, 
-"p" is not in the final word, 
+"g" isn't in the final word,
+"r" is in the right spot,\
+"i" is in the right spot,\
+"p" is not in the final word,\
 "s" is not in the right spot but is somewhere in the final word
